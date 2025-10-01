@@ -1,6 +1,6 @@
-# Robotic course, XXXX, 20YY
+# Robotic course, ENS, 2025
 
-This repository contains the exercices for the robotics class at XXXX, 20YY.
+This repository contains the exercices for the robotics class at ENS, 2025.
 The exercices are organized by notebook. Each notebook corresponds to one chapter of the class.
 The notebooks are in Python and based on the software [Pinocchio](https://github.com/stack-of-tasks/pinocchio).
 
@@ -11,13 +11,13 @@ The notebooks are in Python and based on the software [Pinocchio](https://github
 Using Git via SSH:
 
 ```bash
-git clone git@github.com:ymontmarin/XXXX_20YY_tps_robotic.git
+git clone git@github.com:ymontmarin/tps_robotics_ens_2025.git
 ```
 
 Or via HTTPS:
 
 ```bash
-git clone https://github.com/ymontmarin/XXXX_20YY_tps_robotic.git
+git clone https://github.com/ymontmarin/tps_robotics_ens_2025.git
 ```
 
 ### Install miniconda
@@ -28,6 +28,10 @@ git clone https://github.com/ymontmarin/XXXX_20YY_tps_robotic.git
 
 Only a little snippet is applied to your home .bashrc, everything else will be segmented!
 
+```bash
+conda install -c conda-forge mamba
+```
+
 ### Run a notebook
 
 - Go to your local copy of the repository.
@@ -35,7 +39,7 @@ Only a little snippet is applied to your home .bashrc, everything else will be s
 - Create the conda environment:
 
 ```bash
-conda env create -f robotics_course_env.yml
+mamba env create -f robotics_course_env.yml
 ```
 
 From there on, to work on a tutorial notebook, you only need to activate the environment:
